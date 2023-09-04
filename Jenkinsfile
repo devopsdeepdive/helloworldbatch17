@@ -15,7 +15,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'echo "Test successful"'
+        sh 'echo "Test successful. welcome"'
       }
     }
 
