@@ -12,6 +12,11 @@ pipeline {
         sh 'echo "Build is successful"'
       }
     }
+     stage('Package') {
+      steps {
+        sh 'echo "Build is successful"'
+      }
+    }
 
   }
 }
